@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+</head>
+<h2>A resposta está sendo exibida no console.</h2>
+
+<body>
+    <script>
+
+        //[M1S04] - Ex 10 -Solicitação de dados em função
+        //Crie uma função que solicite para o usuário através do prompt de comando sua idade, e a partir da idade fornecida,
+        //exiba uma mensagem informando se ele é maior de idade ou não. Considere 18 anos como maior idade.
+
+        let idade = prompt('Digite sua idade:')
+
+        function maiorIdade(idade) 
+        {
+            if (idade >= 18) {
+                console.log('Você é maior de idade.')
+            }
+
+            else {
+                console.log('Você é menor de idade.')
+            }
+        }
+        maiorIdade(idade)
+
+    </script>
+</body>
+
+</html>

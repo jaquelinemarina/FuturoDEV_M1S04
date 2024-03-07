@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 09</title>
+</head>
+<h2>A mensagem está sendo exibida no console.</h2>
+
+<body>
+    <script>
+
+        //[M1S04] - Ex 9 - Switch/case
+        //Use um switch para exibir mensagens diferentes com base em uma condição.
+
+        let periodo = prompt('Digite | manhã, tarde, noite ou madrugada | para ver uma recomendação de como deixar o período do seu dia melhor!')
+
+        switch (periodo) {
+            case 'manhã':
+                console.log('Que tal começar o dia com um delicioso café da manhã? Frutas e proteínas não ótimas para o seu bem-estar. Uma boa dica também é incluir exercícios físicos e meditação na rotina para um bom funcionamento do corpo e da mente.')
+                break
+            case 'tarde':
+                console.log('O trabalho anda ocupando demais a sua mente? Que tal fazer pequenas pausas para alongar o seu corpo e respirar conscientemente? Estudos mostram que as pausas durante a jornada de trabalho proporcionam relaxamento e refrescam a mente para voltarmos ainda mais motivados e produtivos para as atividades do dia a dia.')
+                break
+            case 'noite':
+                console.log('Agora é o seu momento de descanço. Que tal pedir uma pizza e assistir aquele filme que está na sua lista da Netflix só aguardando por você? Curta a sua própria companhia! Afinal de contas, isso também é amor próprio! :) ')
+                break
+            case 'madrugada':
+                console.log('Está tendo dificuldades para dormir? Beber um chá de camomila quentinho pode ajudar! Ou quem sabe você possa diminuir as luzes, pôr uma musica relaxante e aplicar a técnica de respiração 4-7-8, que consiste em inspirar por quatro segundos, prender a respiração por sete segundos e expirar por mais oito segundos. Dessa forma você acalmará a sua mente e o sono virá.')
+                break
+
+            default:
+                console.log('Você digitou um período do dia inválido, tente novamente.')
+        }
+
+    </script>
+</body>
+
+</html>
